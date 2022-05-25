@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const ColourSelector = (props) => {
-  const { config, selectNextBackground } = props
+  const { config, selectNextBackground } = props;
   const { background,label, classname } = config;
   const {key,backgrount,label, classname } = config;
   return (
@@ -12,6 +12,6 @@ const ColourSelector = (props) => {
     >
       {label}
     </button>
-  )
-}
+  );
+};
 export default ColourSelector;
